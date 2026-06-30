@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>A Surprise For You ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<audio id="music" loop>
+    <source src="song.mp3" type="audio/mpeg">
+</audio>
+
+<div id="hearts"></div>
+
+<div class="container">
+
+<div id="giftPage">
+<h1>🎁</h1>
+<h2>A Gift From Wayne</h2>
+<p>Tap the gift to begin...</p>
+
+<button onclick="startGame()">Open Gift ❤️</button>
+</div>
+
+<div id="quizPage" class="hide">
+
+<div class="progress">
+<div id="bar"></div>
+</div>
+
+<h2 id="question"></h2>
+
+<div id="answers"></div>
+
+</div>
+
+<div id="finish" class="hide">
+
+<h1>🎉 You Did It! 🎉</h1>
+
+<img src="girlfriend.jpg"
+     alt="My Favorite Person"
+     style="width:220px;border-radius:20px;
+     box-shadow:0 0 20px pink;">
+
+<h2>❤️ I Miss You ❤️</h2>
+
+<p>
+Even when we don't talk all the time...
+I still think about you.
+</p>
+
+<p>
+Sometimes I run out of topics...
+never out of reasons to care about you.
+</p>
+
+<p>
+Thank you for being you.
+</p>
+
+<h3>Love,<br>Wayne ❤️</h3>
+
+<button onclick="celebrate()">I Miss You Too ❤️</button>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
